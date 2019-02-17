@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_dash"
+            android:icon="@drawable/dash"
+            android:title="@string/nav_dash"
+            android:checked="true"/>
+
+        <item
+            android:id="@+id/nav_fnb"
+            android:icon="@drawable/fnb"
+            android:title="@string/nav_fnb"
+            android:checked="true"/>
+
+        <item
+            android:id="@+id/nav_ahelp"
+            android:icon="@drawable/afl"
+            android:title="@string/nav_ahelp"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_phelp"
+            android:icon="@drawable/ph"
+            android:title="@string/nav_phelp"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_faid"
+            android:icon="@drawable/faid"
+            android:title="@string/nav_faid"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_mh"
+            android:icon="@drawable/mh"
+            android:title="@string/nav_mh"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_sponsers"
+            android:icon="@drawable/sponsers"
+            android:title="@string/nav_sponsers"
+            android:checked="true"/>
+        <!--<item-->
+        <!--android:id="@+id/nav_qastore"-->
+        <!--android:icon="@drawable/qas"-->
+        <!--android:title="@string/nav_qastore"-->
+        <!--android:checked="true"/>-->
+
+
+    </group>
+
+    <item
+        android:title="@string/nav_support"
+        android:id="@+id/nav_support"
+        >
+
+        <menu>
+            <item
+                android:id="@+id/nav_coninf"
+                android:title="@string/nav_coninf"
+                android:textColor="#DCDCDC"
+                android:icon="@drawable/coninf"/>
+
+
+
+        </menu>
+
+    </item>
+
+</menu>

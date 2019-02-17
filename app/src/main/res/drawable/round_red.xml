@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <shape android:shape="oval">
+            <solid android:color="#b03060"/>
+        </shape>
+    </item>
+    <item
+        android:id="@android:id/background"
+        android:state_pressed="true">
+        <shape android:shape="oval">
+            <gradient
+                android:angle="90"
+                android:endColor="@color/colorPrimary"
+                android:startColor="@color/colorPrimary"
+                android:type="linear" />
+            <solid android:color="#B03060"/>
+        </shape>
+    </item>
+</selector>
